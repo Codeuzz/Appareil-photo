@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#periph-select {
+    padding: 5px;
+    border-radius: 10px;
+    width:max-content;
+}
+
+button, a {
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(140, 176, 255);
+    padding: 7px;
+    color: white;
+    font-size: 17px;
+    height: fit-content;
+    text-align: center;
+    text-decoration: none;
+
+}
+button:hover, a:hover {
+    background-color: rgb(103, 151, 255);
+    cursor: pointer;
+}
+
+a {
+    background-color: rgb(84, 250, 92);
+}
+a:hover {
+    background-color: rgb(17, 209, 0);
+}
+
+#result-div {
+    width: fit-content;
+    margin: 40px auto;
+}
+
+#photo-btn {
+    margin: -30px auto 50px;
+}
+
+#photo-btn {
+    display: none;
+}
+
+#photos {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: center;
+}
